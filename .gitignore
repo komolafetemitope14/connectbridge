@@ -1,0 +1,114 @@
+
+# ==========================================
+# ConnectBridge - Git Ignore Configuration
+# ==========================================
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# IDE and editor configuration
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+*.secret
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+credentials.yml
+credentials.yaml
+
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Python and Ansible
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.retry
+ansible.log
+vault-password.txt
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Kubernetes
+.kube/
+kubeconfig
+kubeconfig.yaml
+kubeconfig.yml
+kubeconfig-*
+
+# Helm
+*.tgz
+deployment/helm/**/charts/*.tgz
+
+# Docker and local overrides
+docker-compose.override.yml
+docker-compose.override.yaml
+compose.override.yml
+compose.override.yaml
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+tmp/
+temp/
+
+# Database files and backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+backups/
+
+# Security scanning reports
+.trivycache/
+security/trivy/reports/
+
+# Test artifacts
+coverage/
+test-results/
+surefire-reports/
+failsafe-reports/
+
+# Local application data
+data/
