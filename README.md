@@ -162,8 +162,8 @@ Application dependencies, container images and Kubernetes cluster versions will 
 - [x] Infrastructure tool installation
 - [x] Project directory structure
 - [x] Git exclusion configuration
-- [ ] Requirements and architecture documentation
-- [ ] Terraform infrastructure provisioning
+- [x] Requirements and architecture documentation
+- [x] Terraform infrastructure provisioning
 - [ ] Ansible configuration automation
 - [ ] Local Kubernetes cluster deployment
 - [ ] Spring Boot application development

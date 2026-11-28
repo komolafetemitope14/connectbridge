@@ -1,0 +1,5 @@
+
+project_name   = "connectbridge"
+environment    = "dev"
+network_driver = "bridge"
+volume_driver  = "local"
